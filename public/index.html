@@ -8,9 +8,8 @@
 		/>
 		<title>Dashboard - Skooler</title>
 
-		<!-- Tvinger nettleseren til å hente det nye ikonet uten cache-problemer -->
-		<link rel="icon" type="image/png" href="favicon.png?v=2" />
-		<link rel="shortcut icon" type="image/png" href="favicon.png?v=2" />
+		<!-- SVG-favicon direkte i HTML som fyller hele ikonet uten luft -->
+		<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 100'><path fill='%230b72b9' d='M50 0C22.4 0 0 22.4 0 50s22.4 50 50 50c18.8 0 35.1-10.4 43.6-25.8C102.1 89.6 118.4 100 137.2 100c27.6 0 50-22.4 50-50S164.8 0 137.2 0c-18.8 0-35.1 10.4-43.6 25.8C85.1 10.4 68.8 0 50 0zm0 25c13.8 0 25 11.2 25 25S63.8 75 50 75 25 63.8 25 50s11.2-25 25-25zm87.2 0c13.8 0 25 11.2 25 25s-11.2 25-25 25-25-11.2-25-25 11.2-25 25-25z'/></svg>" />
 	
 		<script src="/scram/scramjet.all.js"></script>
 		<script src="/baremux/index.js"></script>
@@ -23,7 +22,7 @@
 
 	<body>
 		<div title="Skooler Logo" class="flex-center logo-wrapper header-center">
-			<img class="logo" src="favicon.png?v=2" alt="Skooler" />
+			<img class="logo" src="favicon.png" alt="Skooler" />
 			<h1>Skooler</h1>
 		</div>
 		<div class="flex-center desc left-margin">
